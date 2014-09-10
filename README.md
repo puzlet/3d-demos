@@ -1,4 +1,1 @@
-3d-demos
-========
-
-Demonstrate 3D rendering.
+![](https://github.com/stemblab/3d-demos/blob/gh-pages/thumb.png)
