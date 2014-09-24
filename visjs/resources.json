@@ -3,5 +3,6 @@
     "main.html",
     "main.css",
     "visjs.css",
+    "demo.coffee",
     "main.coffee"
 ]
