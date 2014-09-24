@@ -1,8 +1,6 @@
-# set the scene size
-width = 400
+width = 320
 height = 300
 
-#renderer = new THREE.WebGLRenderer({ alpha: true })
 renderer = new THREE.CanvasRenderer({ alpha: true })
 renderer.setSize width, height
 
@@ -13,14 +11,8 @@ container.append renderer.domElement
 camera = new THREE.PerspectiveCamera(45, width/height, 0.1, 10000)
 camera.position.z = 300
 
-###
-sphereMaterial = new THREE.MeshBasicMaterial(
-    color: 0x00CC00
-    wireframe: true
-)
-###
 sphereMaterial = new THREE.MeshLambertMaterial(
-    color: 0x999999
+    color: 0xFFFFFF
     wireframe: false
 )
 sphereGeom = new THREE.SphereGeometry(100, 32, 32)
