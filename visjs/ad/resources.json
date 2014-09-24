@@ -1,0 +1,8 @@
+[
+    "http://visjs.org/dist/vis.js",
+    "main.html",
+    "main.css",
+    "../visjs.css",
+    "../demo.coffee",
+    "main.coffee"
+]
